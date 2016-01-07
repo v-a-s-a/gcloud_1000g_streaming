@@ -4,14 +4,15 @@ Experimental recalling from the Sequence Read Archive using instances on google 
 **Goal**: Recall all common LoF variants that are found in ExAC, but not found in 1000G.
 
 ## Setting Up a Compute VM on GCloud ##
-- Start up a n1-highcpu-16 machine
-- Log into the VM
-- Install the streaming version of gotcloud 
-    - build gotcloud and dependencies
-    - download reference data
-- clone down this repository
+1. Start up a n1-highcpu-16 machine
+2. Log into the VM
+3. Install the streaming version of gotcloud 
+    a. Clone the streaming fork of gotcloud
+    b. Build gotcloud and dependencies
+    c. Download reference data
+4. clone down this repository
 
 ## Running: ##
-- Run `run_1000G_lof_sra_exomes.py`
-- Record the runtime
-- Collect the results and check them against the locally called variants
+1. Run `run_1000G_lof_sra_exomes.py`
+2. Record the runtime
+3. Collect the results and check them against the locally called variants
