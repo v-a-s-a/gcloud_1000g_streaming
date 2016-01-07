@@ -1,5 +1,6 @@
 
-**Goal**: Recall all common LoF variants that are found in ExAC, but not found in 1000G.
+## Goal: ##
+Recall all common LoF variants that are found in ExAC, but not found in 1000G.
 
 ## Setting Up a Compute VM on GCloud ##
 1. Start up a n1-highcpu-16 machine
