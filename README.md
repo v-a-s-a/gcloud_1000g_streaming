@@ -1,11 +1,7 @@
 # gcloud_1000g_streaming
 Experimental recalling from the Sequence Read Archive using instances on google cloud.
 
-*Goal*: Recall all common LoF variants that are found in ExAC, but not found in 1000G
-
-Before starting:
-- Compressed and indexed VCF of these variants
-- List of 1000G SRR accession numbers for exome experiments
+**Goal**: Recall all common LoF variants that are found in ExAC, but not found in 1000G.
 
 Setup:
 - Start up a n1-highcpu-16 machine
