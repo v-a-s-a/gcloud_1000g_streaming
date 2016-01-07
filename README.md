@@ -7,9 +7,9 @@ Experimental recalling from the Sequence Read Archive using instances on google 
 1. Start up a n1-highcpu-16 machine
 2. Log into the VM
 3. Install the streaming version of gotcloud 
-    a. Clone the streaming fork of gotcloud
-    b. Build gotcloud and dependencies
-    c. Download reference data
+    - Clone the streaming fork of gotcloud
+    - Build gotcloud and dependencies
+    - Download reference data
 4. clone down this repository
 
 ## Running: ##
