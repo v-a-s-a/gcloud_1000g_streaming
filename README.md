@@ -1,12 +1,10 @@
-# gcloud_1000g_streaming #
-Experimental recalling from the Sequence Read Archive using instances on google cloud.
 
 **Goal**: Recall all common LoF variants that are found in ExAC, but not found in 1000G.
 
 ## Setting Up a Compute VM on GCloud ##
 1. Start up a n1-highcpu-16 machine
 2. Log into the VM
-3. Install the streaming version of gotcloud 
+3. Install the streaming version of gotcloud:
     - Clone the streaming fork of gotcloud
     - Build gotcloud and dependencies
     - Download reference data
