@@ -10,8 +10,8 @@ snpcall_template_conf = root + 'snpcall/snpcall_conf/template.conf'
 target_vcf = root + 'data/exac_common_lof_snps_no-1000G.vcf.gz'
 
 call_window = 1
-experiment_type = 'exome_sra'
-sample_list = root + 'data/1000G_phase3_exome_SRR.list'
+experiment_type = 'low-cov_sra'
+sample_list = root + 'data/1000G_phase3_low-coverage_SRR.list'
 
 output_dir = root + 'snpcall/outputs/{0}/'.format(experiment_type)
 
